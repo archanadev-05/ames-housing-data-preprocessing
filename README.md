@@ -1,7 +1,15 @@
 # Ames Housing Data Preprocessing & EDA
 
 ## Overview
-This project demonstrates an end-to-end data preprocessing and exploratory data analysis (EDA) pipeline using the Ames Housing dataset. It focuses on cleaning, transforming, and visualizing residential home sale records to prepare the data for machine learning models.
+This project demonstrates an end-to-end data preprocessing and exploratory data analysis (EDA) pipeline using the Ames Housing dataset. It focuses on cleaning, transforming, and visualizing residential home sale records to prepare the data for machine learning models. 
+
+This repository also contains the original assignment brief (`Ames_Housing_Assignment_Brief.pdf`), which outlines the specific preprocessing requirements and methodologies implemented in this project.
+
+## Repository Structure
+* `data_preprocessing.ipynb`: The main Jupyter Notebook containing all code, visualizations, and markdown explanations.
+* `Ames_Housing_Assignment_Brief.pdf`: The original assignment requirements and guidelines.
+* `requirements.txt`: The list of Python dependencies required to run the notebook.
+* `.gitignore`: Specifies intentionally untracked files (such as the raw dataset and local environments).
 
 ## Dataset
 The dataset contains 1,460 residential home sale records from Ames, Iowa, featuring 80 independent variables and 1 target variable (`SalePrice`). It includes a mix of numerical and categorical variables describing every aspect of the homes.
